@@ -1,5 +1,4 @@
 import hashlib
-import re
 
 class URLShortener:
     def __init__(self):
