@@ -60,9 +60,6 @@
         if not self.url_mapping:
             print("Сохранённых ссылок нет")
             return
-        
-        for code, url in self.url_mapping.items():
-            print(f"{code} -> {url}")
 ```
 
 ### Вариативная часть (на выбор)
@@ -76,7 +73,4 @@
             del self.url_mapping[short_code]
             return True
         return False
-```
-            "code_length": self.code_length
-        }
 ```
